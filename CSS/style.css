@@ -3,6 +3,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background-color: #dddddd;
 }
 
 header {
@@ -39,3 +40,47 @@ header {
   padding: 0;
   align-items: center;
 }
+
+.section-1 {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: white;
+  height: 679px;
+}
+
+.players {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .player {
+  color: black;
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+.section-1>div>h2 {
+  color: #562eff;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.player>img {
+  margin: 0;
+}
+.player>p {
+  margin: 0;
+  
+}
+
+
