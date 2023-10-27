@@ -1,11 +1,3 @@
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  background-color: #dddddd;
-}
-
 header {
   background: #562eff;
   padding: 10px;
@@ -32,7 +24,6 @@ header {
 
 .menu {
   color: white;
-  text-decoration: none;
   list-style: none;
   display: flex;
   column-gap: 50px;
@@ -47,7 +38,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 36px;
   background-color: white;
   padding: 20px;
 }
@@ -90,7 +81,7 @@ h2 {
   width: 807px;
   margin: 0 auto;
   border: 1px solid #d1d1d1;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .topblog {
@@ -130,4 +121,84 @@ h2 {
 }
 .blog > a > p > span {
   color: #9f9f9f;
+}
+
+.section-02 {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 21px;
+  background-color: white;
+  padding: 20px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rating {
+  display: flex;
+  font-size: 14.69px;
+  color: #a2a2a2;
+}
+.time {
+  background-color: #ffe4e8;
+  padding: 5px;
+  color: #ff4a60;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 14.69px;
+}
+
+.time > img {
+  height: 20.03px;
+}
+
+.star > img {
+  height: 11.81px;
+  width: 11.81px;
+}
+
+.course-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course > div > img {
+  width: 177px;
+  height: 117px;
+}
+
+.course > p {
+  font-size: 14.69px;
+}
+
+.course > a {
+  color: black;
+}
+
+.course > span > p {
+  font-size: 14.69px;
+  color: #ed6b4f;
 }
